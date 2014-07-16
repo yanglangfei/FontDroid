@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Typeface">
+        <attr name="typefaceAssetPath" format="string" />
+        <attr name="typefaceFilePath" format="string" />
+        <attr name="typefaceCache" format="boolean" />
+    </declare-styleable>
+</resources>
