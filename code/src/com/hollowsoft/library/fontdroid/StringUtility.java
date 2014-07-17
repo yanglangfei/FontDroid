@@ -17,7 +17,6 @@
 
 package com.hollowsoft.library.fontdroid;
 
-
 /**
  * @author Igor Morais
  * @author Mor41s.1gor@gmail.com
