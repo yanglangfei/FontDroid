@@ -31,7 +31,6 @@ import com.hollowsoft.library.fontdroid.TypefaceCache.PathType;
  * @author Igor Morais
  * @author Mor41s.1gor@gmail.com
  */
-@Deprecated
 public abstract class AbstractDigitalClock extends android.widget.DigitalClock {
 
     /**

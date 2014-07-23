@@ -36,7 +36,6 @@ import com.hollowsoft.library.fontdroid.TypefaceCache.PathType;
  * @author Igor Morais
  * @author Mor41s.1gor@gmail.com
  */
-@Deprecated
 public class DigitalClock extends android.widget.DigitalClock {
 
     /**
