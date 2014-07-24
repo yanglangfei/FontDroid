@@ -2,5 +2,19 @@
 <resources>
 
     <string name="app_name">Font Droid</string>
+    
+    <string name="chronometer">Chronometer</string>
+    <string name="auto_complete_text_view">AutoCompleteTextView</string>
+    <string name="switch_">Switch</string>
+    <string name="button">Button</string>
+    <string name="multi_auto_complete_text_view">MultiAutoCompleteTextView</string>
+    <string name="radio_button">RadioButton</string>
+    <string name="checked_text_view">CheckedTextView</string>
+    <string name="text_clock">TextClock</string>
+    <string name="toggle_button">ToggleButton</string>
+    <string name="text_view">TextView</string>
+    <string name="edit_text">EditText</string>
+    <string name="check_box">CheckBox</string>
+    <string name="digital_clock">DigitalClock</string>
 
 </resources>
