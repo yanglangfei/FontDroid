@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu">
+        <item>AutoCompleteTextView</item>
+        <item>Button</item>
+        <item>CheckBox</item>
+        <item>CheckedTextView</item>
+        <item>Chronometer</item>
+        <item>DigitalClock</item>
+        <item>EditText</item>
+        <item>MultiAutoCompleteTextView</item>
+        <item>RadioButton</item>
+        <item>Switch</item>
+        <item>TextClock</item>
+        <item>TextView</item>
+        <item>ToggleButton</item>
+    </string-array>
+
+</resources>
