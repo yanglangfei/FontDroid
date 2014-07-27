@@ -2,19 +2,19 @@
 <resources>
 
     <string-array name="menu">
-        <item>AutoCompleteTextView</item>
+        <item>Auto Complete Text View</item>
         <item>Button</item>
-        <item>CheckBox</item>
-        <item>CheckedTextView</item>
+        <item>Check Box</item>
+        <item>Checked Text View</item>
         <item>Chronometer</item>
-        <item>DigitalClock</item>
-        <item>EditText</item>
-        <item>MultiAutoCompleteTextView</item>
-        <item>RadioButton</item>
+        <item>Digital Clock</item>
+        <item>Edit Text</item>
+        <item>Multi Auto Complete Text View</item>
+        <item>Radio Button</item>
         <item>Switch</item>
-        <item>TextClock</item>
-        <item>TextView</item>
-        <item>ToggleButton</item>
+        <item>Text Clock</item>
+        <item>Text View</item>
+        <item>Toggle Button</item>
     </string-array>
 
 </resources>
