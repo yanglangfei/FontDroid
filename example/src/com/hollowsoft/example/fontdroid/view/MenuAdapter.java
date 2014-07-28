@@ -35,26 +35,32 @@ public class MenuAdapter extends FragmentPagerAdapter {
 
         case 1:
             fragment = ButtonFragment.instantiate(context, ButtonFragment.class.getName());
+
             break;
 
         case 2:
             fragment = CheckBoxFragment.instantiate(context, CheckBoxFragment.class.getName());
+
             break;
 
         case 3:
             fragment = CheckedTextViewFragment.instantiate(context, CheckedTextViewFragment.class.getName());
+
             break;
 
         case 4:
             fragment = ChronometerFragment.instantiate(context, ChronometerFragment.class.getName());
+
             break;
 
         case 5:
             fragment = DigitalClockFragment.instantiate(context, DigitalClockFragment.class.getName());
+
             break;
 
         case 6:
             fragment = EditTextFragment.instantiate(context, EditTextFragment.class.getName());
+
             break;
 
         case 7:
@@ -64,26 +70,32 @@ public class MenuAdapter extends FragmentPagerAdapter {
 
         case 8:
             fragment = RadioButtonFragment.instantiate(context, RadioButtonFragment.class.getName());
+
             break;
 
         case 9:
             fragment = SwitchFragment.instantiate(context, SwitchFragment.class.getName());
+
             break;
 
         case 10:
             fragment = TextClockFragment.instantiate(context, TextClockFragment.class.getName());
+
             break;
 
         case 11:
             fragment = TextViewFragment.instantiate(context, TextViewFragment.class.getName());
+
             break;
 
         case 12:
             fragment = ToggleButtonFragment.instantiate(context, ToggleButtonFragment.class.getName());
+
             break;
 
         default:
             fragment = ButtonFragment.instantiate(context, ButtonFragment.class.getName());
+
             break;
         }
 
