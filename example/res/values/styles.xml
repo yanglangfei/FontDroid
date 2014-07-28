@@ -7,5 +7,6 @@
 
     <style name="TextAppearance.Hollow" parent="@android:style/TextAppearance.Holo">
         <item name="typefaceAssetPath">fonts/JennaSue.ttf</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
     </style>
 </resources>
