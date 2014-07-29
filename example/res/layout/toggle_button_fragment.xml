@@ -4,35 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <com.hollowsoft.library.fontdroid.TextView
+    <com.hollowsoft.library.fontdroid.ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="@string/toggle_button"
-        android:textColor="@android:color/holo_orange_dark"
-        android:textSize="75sp" />
-
-    <com.hollowsoft.library.fontdroid.ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@android:color/holo_purple"
         android:textOff="@string/app_name"
         android:textOn="@string/app_name"
-        android:textSize="50sp"
-        app:typefaceAssetPath="fonts/orange juice 2.0.ttf" />
-
-    <com.hollowsoft.library.fontdroid.ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="25dp"
-        android:textColor="@android:color/holo_red_dark"
-        android:textOff="@string/app_name"
-        android:textOn="@string/app_name"
-        android:textSize="40sp"
-        app:typefaceAssetPath="fonts/Dark Net Warrior.ttf" />
+        android:textSize="50sp" />
 
 </RelativeLayout>
