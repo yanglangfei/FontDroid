@@ -29,7 +29,7 @@ import com.hollowsoft.example.fontdroid.R;
  * @author Igor Morais
  * @author mor41s.1gor@gmail.com
  */
-class SwitchFragment extends Fragment {
+public final class SwitchFragment extends Fragment {
 
     /*
      * (non-Javadoc)

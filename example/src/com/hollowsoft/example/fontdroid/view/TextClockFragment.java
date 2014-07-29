@@ -29,7 +29,7 @@ import com.hollowsoft.example.fontdroid.R;
  * @author Igor Morais
  * @author mor41s.1gor@gmail.com
  */
-class TextClockFragment extends Fragment {
+public final class TextClockFragment extends Fragment {
 
     /*
      * (non-Javadoc)

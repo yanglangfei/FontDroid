@@ -29,7 +29,7 @@ import com.hollowsoft.example.fontdroid.R;
  * @author Igor Morais
  * @author mor41s.1gor@gmail.com
  */
-class EditTextFragment extends Fragment {
+public final class EditTextFragment extends Fragment {
 
     /*
      * (non-Javadoc)

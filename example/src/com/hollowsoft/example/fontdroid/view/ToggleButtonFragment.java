@@ -29,7 +29,7 @@ import com.hollowsoft.example.fontdroid.R;
  * @author Igor Morais
  * @author mor41s.1gor@gmail.com
  */
-class ToggleButtonFragment extends Fragment {
+public final class ToggleButtonFragment extends Fragment {
 
     /*
      * (non-Javadoc)
