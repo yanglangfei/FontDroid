@@ -19,7 +19,6 @@
  * @since 1.0
  *
  * @author Igor Morais
- * @author Mor41s.1gor@gmail.com
+ * @author mor41s.1gor@gmail.com
  */
 package com.hollowsoft.example.fontdroid.view;
-

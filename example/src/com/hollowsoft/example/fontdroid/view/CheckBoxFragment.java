@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014 HollowSoft @Igor Morais
+ * Copyright (c) 2014 HollowSoft @IgorMorais
  *
  * Licensed under the Apache License, Version 2.0 (the “License”);
  * you may not use this file except in compliance with the License.
@@ -25,8 +25,19 @@ import android.view.ViewGroup;
 
 import com.hollowsoft.example.fontdroid.R;
 
-public class CheckBoxFragment extends Fragment {
+/**
+ * @author Igor Morais
+ * @author mor41s.1gor@gmail.com
+ */
+class CheckBoxFragment extends Fragment {
 
+    /*
+     * (non-Javadoc)
+     *
+     * @see
+     * android.support.v4.app.Fragment#onCreateView(android.view.LayoutInflater,
+     * android.view.ViewGroup, android.os.Bundle)
+     */
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container, final Bundle savedInstance) {
         return inflater.inflate(R.layout.check_box_fragment, container, false);

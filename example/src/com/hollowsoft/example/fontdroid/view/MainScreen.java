@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014 HollowSoft @Igor Morais
+ * Copyright (c) 2014 HollowSoft @IgorMorais
  *
  * Licensed under the Apache License, Version 2.0 (the “License”);
  * you may not use this file except in compliance with the License.
@@ -30,14 +30,25 @@ import com.hollowsoft.example.fontdroid.R;
 
 /**
  * @author Igor Morais
- * @author Mor41s.1gor@gmail.com
+ * @author mor41s.1gor@gmail.com
  */
 public final class MainScreen extends FragmentActivity implements TabListener, OnPageChangeListener {
 
+    /**
+     *
+     */
     private ActionBar actionBar;
 
+    /**
+     *
+     */
     private ViewPager viewPager;
 
+    /*
+     * (non-Javadoc)
+     *
+     * @see android.support.v4.app.FragmentActivity#onCreate(android.os.Bundle)
+     */
     @Override
     protected void onCreate(final Bundle savedInstance) {
         super.onCreate(savedInstance);
@@ -56,31 +67,72 @@ public final class MainScreen extends FragmentActivity implements TabListener, O
         }
     }
 
+    /*
+     * (non-Javadoc)
+     *
+     * @see
+     * android.app.ActionBar.TabListener#onTabReselected(android.app.ActionBar
+     * .Tab, android.app.FragmentTransaction)
+     */
     @Override
     public void onTabReselected(final Tab tab, final FragmentTransaction fragmentTransaction) {
 
     }
 
+    /*
+     * (non-Javadoc)
+     *
+     * @see
+     * android.app.ActionBar.TabListener#onTabSelected(android.app.ActionBar
+     * .Tab, android.app.FragmentTransaction)
+     */
     @Override
     public void onTabSelected(final Tab tab, final FragmentTransaction fragmentTransaction) {
         viewPager.setCurrentItem(tab.getPosition());
     }
 
+    /*
+     * (non-Javadoc)
+     *
+     * @see
+     * android.app.ActionBar.TabListener#onTabUnselected(android.app.ActionBar
+     * .Tab, android.app.FragmentTransaction)
+     */
     @Override
     public void onTabUnselected(final Tab tab, final FragmentTransaction fragmentTransaction) {
 
     }
 
+    /*
+     * (non-Javadoc)
+     *
+     * @see android.support.v4.view.ViewPager.OnPageChangeListener#
+     * onPageScrollStateChanged(int)
+     */
     @Override
     public void onPageScrollStateChanged(final int state) {
 
     }
 
+    /*
+     * (non-Javadoc)
+     *
+     * @see
+     * android.support.v4.view.ViewPager.OnPageChangeListener#onPageScrolled
+     * (int, float, int)
+     */
     @Override
     public void onPageScrolled(final int position, final float positionOffset, final int positionOffsetPixels) {
 
     }
 
+    /*
+     * (non-Javadoc)
+     *
+     * @see
+     * android.support.v4.view.ViewPager.OnPageChangeListener#onPageSelected
+     * (int)
+     */
     @Override
     public void onPageSelected(final int position) {
         actionBar.setSelectedNavigationItem(position);

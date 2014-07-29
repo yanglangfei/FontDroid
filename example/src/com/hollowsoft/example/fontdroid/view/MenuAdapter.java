@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014 HollowSoft @Igor Morais
+ * Copyright (c) 2014 HollowSoft @IgorMorais
  *
  * Licensed under the Apache License, Version 2.0 (the “License”);
  * you may not use this file except in compliance with the License.
@@ -22,32 +22,63 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-public class MenuAdapter extends FragmentPagerAdapter {
+/**
+ * @author Igor Morais
+ * @author mor41s.1gor@gmail.com
+ */
+public final class MenuAdapter extends FragmentPagerAdapter {
 
+    /**
+     *
+     */
     private static final int AMOUNT = 13;
 
+    /**
+     *
+     */
+    private static final Object NULL = null;
+
+    /**
+     *
+     */
     private final Context context;
 
+    /**
+     *
+     * @param fragmentManager
+     * @param context
+     */
     public MenuAdapter(final FragmentManager fragmentManager, final Context context) {
         super(fragmentManager);
 
         this.context = context;
     }
 
+    /*
+     * (non-Javadoc)
+     *
+     * @see android.support.v4.view.PagerAdapter#getCount()
+     */
     @Override
     public int getCount() {
         return AMOUNT;
     }
 
+    /*
+     * (non-Javadoc)
+     *
+     * @see android.support.v4.app.FragmentPagerAdapter#getItem(int)
+     */
     @Override
     public Fragment getItem(final int position) {
-        Fragment fragment;
+        Fragment fragment = (Fragment) NULL;
 
         switch (position) {
 
         case 0:
             fragment = AutoCompleteTextViewFragment.instantiate(context,
                     AutoCompleteTextViewFragment.class.getName());
+
             break;
 
         case 1:
@@ -83,6 +114,7 @@ public class MenuAdapter extends FragmentPagerAdapter {
         case 7:
             fragment = MultiAutoCompleteTextViewFragment.instantiate(context,
                     MultiAutoCompleteTextViewFragment.class.getName());
+
             break;
 
         case 8:
@@ -107,11 +139,6 @@ public class MenuAdapter extends FragmentPagerAdapter {
 
         case 12:
             fragment = ToggleButtonFragment.instantiate(context, ToggleButtonFragment.class.getName());
-
-            break;
-
-        default:
-            fragment = ButtonFragment.instantiate(context, ButtonFragment.class.getName());
 
             break;
         }
