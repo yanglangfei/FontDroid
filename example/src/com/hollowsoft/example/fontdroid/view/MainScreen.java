@@ -62,8 +62,8 @@ public final class MainScreen extends FragmentActivity implements TabListener, O
         viewPager.setAdapter(new MenuAdapter(getSupportFragmentManager(), this));
         viewPager.setOnPageChangeListener(this);
 
-        for (final String name : getResources().getStringArray(R.array.menu)) {
-            actionBar.addTab(actionBar.newTab().setText(name).setTabListener(this));
+        for (final String menu : getResources().getStringArray(R.array.menu)) {
+            actionBar.addTab(actionBar.newTab().setText(menu).setTabListener(this));
         }
     }
 
@@ -76,7 +76,7 @@ public final class MainScreen extends FragmentActivity implements TabListener, O
      */
     @Override
     public void onTabReselected(final Tab tab, final FragmentTransaction fragmentTransaction) {
-
+        // Don't need to be implemented.
     }
 
     /*
@@ -100,7 +100,7 @@ public final class MainScreen extends FragmentActivity implements TabListener, O
      */
     @Override
     public void onTabUnselected(final Tab tab, final FragmentTransaction fragmentTransaction) {
-
+        // Don't need to be implemented.
     }
 
     /*
@@ -111,7 +111,7 @@ public final class MainScreen extends FragmentActivity implements TabListener, O
      */
     @Override
     public void onPageScrollStateChanged(final int state) {
-
+        // Don't need to be implemented.
     }
 
     /*
@@ -123,7 +123,7 @@ public final class MainScreen extends FragmentActivity implements TabListener, O
      */
     @Override
     public void onPageScrolled(final int position, final float positionOffset, final int positionOffsetPixels) {
-
+        // Don't need to be implemented.
     }
 
     /*
