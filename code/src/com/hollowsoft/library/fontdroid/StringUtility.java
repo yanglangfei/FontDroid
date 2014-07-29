@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 HollowSoft @Igor Morais
+ * Copyright (c) 2013 HollowSoft @IgorMorais
  *
  * Licensed under the Apache License, Version 2.0 (the “License”);
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ package com.hollowsoft.library.fontdroid;
 
 /**
  * @author Igor Morais
- * @author Mor41s.1gor@gmail.com
+ * @author mor41s.1gor@gmail.com
  */
 public final class StringUtility {
 

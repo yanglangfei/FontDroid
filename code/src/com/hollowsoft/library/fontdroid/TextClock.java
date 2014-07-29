@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014 HollowSoft @Igor Morais
+ * Copyright (c) 2014 HollowSoft @IgorMorais
  *
  * Licensed under the Apache License, Version 2.0 (the “License”);
  * you may not use this file except in compliance with the License.
@@ -73,7 +73,7 @@ import com.hollowsoft.library.fontdroid.TypefaceCache.PathType;
  * @attr ref com.hollowsoft.library.utility.R.styleable#Typeface_typefaceCache
  *
  * @author Igor Morais
- * @author Mor41s.1gor@gmail.com
+ * @author mor41s.1gor@gmail.com
  */
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
 public class TextClock extends android.widget.TextClock {

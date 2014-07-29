@@ -73,7 +73,7 @@ import com.hollowsoft.library.fontdroid.TypefaceCache.PathType;
  * @attr ref android.R.styleable#AutoCompleteTextView_dropDownHorizontalOffset
  *
  * @author Igor Morais
- * @author Mor41s.1gor@gmail.com
+ * @author mor41s.1gor@gmail.com
  */
 public abstract class AbstractAutoCompleteTextView extends android.widget.AutoCompleteTextView {
 

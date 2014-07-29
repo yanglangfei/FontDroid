@@ -115,7 +115,7 @@ import com.hollowsoft.library.fontdroid.TypefaceCache.PathType;
  * </p>
  *
  * @author Igor Morais
- * @author Mor41s.1gor@gmail.com
+ * @author mor41s.1gor@gmail.com
  */
 public abstract class AbstractButton extends android.widget.Button {
 
