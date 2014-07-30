@@ -5,6 +5,17 @@
 Example
 -------
 
+Thanks
+------
+
+Fonts used in sample app.
+
+* [Bombing](http://qkila.com)
+* [Dark Net Warrior](http://www.imagex-fonts.com)
+* [Jenna Sue](http://www.jennasuedesign.com)
+* [Levi Brush](http://loremipsum.ro)
+* [Orange Juice](http://brittneymurphydesign.com)
+
 
 License
 -------
