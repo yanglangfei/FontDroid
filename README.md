@@ -23,9 +23,9 @@ The widgets have the following custom attributes:
 
 I think the attributes names are self explanatory, but let me say:
 
-* `typefaceAssetPath` - Set font from the specified font data
-* `typefaceFilePath` - Set font from the specified font file.
-* `typefaceCache` - Load font from cache, default value is true.
+* TypefaceAssetPath - Set font from the specified font data
+* TypefaceFilePath - Set font from the specified font file.
+* TypefaceCache - Load font from cache, default value is true.
 
 ###### 1. Set in a single widget.
 
