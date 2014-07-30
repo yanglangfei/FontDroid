@@ -7,7 +7,7 @@ Example
 
 The font can be set to a widget in various ways.
 
-###### In XML
+##### In XML
 
 All supported widgets can be found in graphical layout tab.
 
@@ -27,7 +27,7 @@ I think the attributes names are self explanatory, but let me say.
 * `typefaceFilePath`
 * `typefaceCache`
 
-1. Set in a single widget.
+###### 1. Set in a single widget.
 
 ```xml
 <com.hollowsoft.library.fontdroid.TextView
@@ -64,7 +64,8 @@ Now let me show you the full sample.
 </RelativeLayout>
 ```
 
-2. Set to the entire application.
+###### 2. Set to the entire application.
+
 
 
 Thanks
