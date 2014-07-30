@@ -27,6 +27,16 @@ I think the attributes names are self explanatory, but let me say.
 * `typefaceFilePath`
 * `typefaceCache`
 
+1. Set in a single widget.
+
+```xml
+<com.hollowsoft.library.fontdroid.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Font Droid"
+        android:textSize="50sp"
+        app:typefaceAssetPath="fonts/LeviBrush.ttf" />
+```
 Thanks
 ------
 
