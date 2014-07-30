@@ -9,7 +9,7 @@ The font can be set to a widget in various ways.
 
 ##### In XML
 
-All supported widgets can be found in graphical layout tab, you can drag and drop usually.
+All supported widgets can be found in graphical layout tab, you can drag and drop as usually.
 
 ![2]
 
@@ -66,7 +66,22 @@ Now let me show you the full sample.
 
 ###### 2. Set to the entire application.
 
+Here you still need to use the custom widgets, but you can set the custom font in a style,
+the style must have the name `TextAppearance.Hollow`.
 
+```xml
+<style name="TextAppearance.Hollow" parent="@android:style/TextAppearance.Holo">
+    <item name="typefaceAssetPath">fonts/LeviBrush.ttf</item>
+</style>
+```
+
+You can use this style normally like `textAppearance` atribute.
+
+```xml
+<style name="Theme.Example" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+    <item name="android:textAppearance">@style/TextAppearance.Hollow</item>
+</style>
+```
 
 Thanks
 ------
