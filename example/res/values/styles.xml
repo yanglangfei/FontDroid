@@ -6,7 +6,7 @@
     </style>
 
     <style name="TextAppearance.Hollow" parent="@android:style/TextAppearance.Holo">
-        <item name="typefaceAssetPath">fonts/Levibrush.ttf</item>
+        <item name="typefaceAssetPath">fonts/LeviBrush.ttf</item>
         <!-- <item name="typefaceAssetPath">fonts/Bombing.ttf</item> -->
         <!-- <item name="typefaceAssetPath">fonts/DarkNetWarrior.ttf</item> -->
         <!-- <item name="typefaceAssetPath">fonts/JennaSue.ttf</item> -->
