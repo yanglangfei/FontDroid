@@ -5,6 +5,28 @@
 Example
 -------
 
+The font can be set to a widget in various ways.
+
+###### In XML
+
+All supported widgets can be found in graphical layout tab.
+
+![2]
+
+You can drag and drop usually, the widgets have the following attributes.
+
+```xml
+<attr name="typefaceAssetPath" format="string" />
+<attr name="typefaceFilePath" format="string" />
+<attr name="typefaceCache" format="boolean" />
+```
+
+I think the attributes names are self explanatory, but let me say.
+
+* `typefaceAssetPath` 
+* `typefaceFilePath`
+* `typefaceCache`
+
 Thanks
 ------
 
