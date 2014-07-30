@@ -64,10 +64,13 @@ Now let me show you the full sample.
 </RelativeLayout>
 ```
 
+2. Set to the entire application.
+
+
 Thanks
 ------
 
-Fonts used in sample app.
+Fonts used in sample application.
 
 * [Bombing](http://qkila.com)
 * [Dark Net Warrior](http://www.imagex-fonts.com)
