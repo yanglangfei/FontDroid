@@ -21,11 +21,11 @@ The widgets have the following custom attributes:
 <attr name="typefaceCache" format="boolean" />
 ```
 
-I think the attributes names are self explanatory, but let me say.
+I think the attributes names are self explanatory, but let me say:
 
-* `typefaceAssetPath` 
-* `typefaceFilePath`
-* `typefaceCache`
+* `typefaceAssetPath` - Set font from the specified font data
+* `typefaceFilePath` - Set font from the specified font file.
+* `typefaceCache` - Load font from cache, default value is true.
 
 ###### 1. Set in a single widget.
 
@@ -82,6 +82,9 @@ You can use this style normally like `textAppearance` atribute.
     <item name="android:textAppearance">@style/TextAppearance.Hollow</item>
 </style>
 ```
+
+##### In Java
+
 
 Thanks
 ------
