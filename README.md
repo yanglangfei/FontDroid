@@ -9,11 +9,11 @@ The font can be set to a widget in various ways.
 
 ##### In XML
 
-All supported widgets can be found in graphical layout tab.
+All supported widgets can be found in graphical layout tab, you can drag and drop usually.
 
 ![2]
 
-You can drag and drop usually, the widgets have the following attributes.
+The widgets have the following custom attributes:
 
 ```xml
 <attr name="typefaceAssetPath" format="string" />
@@ -71,7 +71,7 @@ Now let me show you the full sample.
 Thanks
 ------
 
-Fonts used in sample application.
+Fonts used in sample application:
 
 * [Bombing](http://qkila.com)
 * [Dark Net Warrior](http://www.imagex-fonts.com)
