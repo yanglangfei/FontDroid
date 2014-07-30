@@ -37,6 +37,33 @@ I think the attributes names are self explanatory, but let me say.
         android:textSize="50sp"
         app:typefaceAssetPath="fonts/LeviBrush.ttf" />
 ```
+
+Also you need put this tag in your root element, that is necessary for Android when working with custom views.
+
+```xml
+xmlns:app="http://schemas.android.com/apk/res-auto"
+```
+
+Now let me show you the full sample.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.hollowsoft.library.fontdroid.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Font Droid"
+        android:textSize="50sp"
+        app:typefaceAssetPath="fonts/LeviBrush.ttf" />
+
+</RelativeLayout>
+```
+
 Thanks
 ------
 
