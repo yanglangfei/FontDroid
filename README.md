@@ -19,7 +19,7 @@
 Example
 -------
 
-The font can be set to a widget in various ways.
+The custom font can be set to a widget in various ways, all examples below are using a plain `TextView`, but all widget have the same way to use.
 
 ##### In XML
 
