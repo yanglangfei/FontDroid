@@ -23,7 +23,7 @@ Supported widgets:
 Example
 -------
 
-The custom font can be set to a widget in various ways, all examples below are using a plain `TextView`, but all widget have the same way to use.
+The custom font can be set to a widget in various ways, all examples below are using a plain `TextView`, but all widgets have the same usage.
 
 ##### In XML
 
