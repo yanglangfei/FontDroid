@@ -56,7 +56,7 @@ I think the attributes names are self explanatory, but let me say:
         app:typefaceAssetPath="fonts/LeviBrush.ttf" />
 ```
 
-Also you need put this tag in your root element, that is necessary for Android when working with custom views.
+You also need to put this tag in your root element, that is necessary for Android when working with custom views.
 
 ```xml
 xmlns:app="http://schemas.android.com/apk/res-auto"
