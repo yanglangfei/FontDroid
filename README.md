@@ -116,6 +116,31 @@ protected abstract String getTypefaceAssetPath() {
 }
 ```
 
+###### 2. Use the custom widget classes
+
+Like a normal way, but you have a few new methods.
+
+```java
+TextView textView = (TextView) findViewById(R.id.text_view);
+textView.setTypeface("fonts/LeviBrush.ttf", PathType.ASSET);
+```
+
+or
+
+```java
+TextView textView = new TextView(this);
+textView.setTypeface("fonts/LeviBrush.ttf", PathType.ASSET);
+```
+
+Pay attention on import
+
+```java
+import com.hollowsoft.library.fontdroid.TextView;
+```
+
+You can also look at sample application for more detailed information.
+
+
 Thanks
 ------
 
