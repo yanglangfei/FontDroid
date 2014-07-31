@@ -31,7 +31,7 @@ All supported widgets can be found in graphical layout tab, you can drag and dro
 
 ![2]
 
-The widgets have the following custom attributes:
+These widgets have the following custom attributes:
 
 ```xml
 <attr name="typefaceAssetPath" format="string" />
