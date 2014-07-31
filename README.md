@@ -1,6 +1,20 @@
 ![1] FontDroid
 ==============
 
+* [AutoCompleteTextView](http://developer.android.com/reference/android/widget/AutoCompleteTextView.html)
+* [Button](http://developer.android.com/reference/android/widget/Button.html)
+* [CheckBox](http://developer.android.com/guide/topics/ui/controls/checkbox.html)
+* [CheckedTextView](http://developer.android.com/reference/android/widget/CheckedTextView.html)
+* [Chronometer](http://developer.android.com/reference/android/widget/Chronometer.html)
+* [DigitalClock](http://developer.android.com/reference/android/widget/DigitalClock.html)
+* [EditText](http://developer.android.com/reference/android/widget/EditText.html)
+* [MultiAutoCompleteTextView](http://developer.android.com/reference/android/widget/MultiAutoCompleteTextView.html)
+* [RadioButton](http://developer.android.com/guide/topics/ui/controls/radiobutton.html)
+* [Switch](http://developer.android.com/reference/android/widget/Switch.html)
+* [TextClock](http://developer.android.com/reference/android/widget/TextClock.html)
+* [TextView](http://developer.android.com/reference/android/widget/TextView.html)
+* [ToggleButton](http://developer.android.com/reference/android/widget/ToggleButton.html)
+
 
 Example
 -------
@@ -24,10 +38,10 @@ The widgets have the following custom attributes:
 I think the attributes names are self explanatory, but let me say:
 
 * TypefaceAssetPath - Set font from the specified font data
-* TypefaceFilePath - Set font from the specified font file.
-* TypefaceCache - Load font from cache, default value is true.
+* TypefaceFilePath - Set font from the specified font file
+* TypefaceCache - Load font from cache, default value is true
 
-###### 1. Set in a single widget.
+###### 1. Set in a single widget
 
 ```xml
 <com.hollowsoft.library.fontdroid.TextView
@@ -64,7 +78,7 @@ Now let me show you the full sample.
 </RelativeLayout>
 ```
 
-###### 2. Set to the entire application.
+###### 2. Set to the entire application
 
 Here you still need to use the custom widgets, but you can set the custom font in a style,
 the style must have the name `TextAppearance.Hollow`.
