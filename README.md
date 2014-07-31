@@ -1,6 +1,10 @@
 ![1] FontDroid
 ==============
 
+FontDroid is a small library that gives the ability to use custom fonts in your Android application, you can use any font with extension `.TTF` or `.OTF`.
+
+Supported widgets:
+
 * [AutoCompleteTextView](http://developer.android.com/reference/android/widget/AutoCompleteTextView.html)
 * [Button](http://developer.android.com/reference/android/widget/Button.html)
 * [CheckBox](http://developer.android.com/guide/topics/ui/controls/checkbox.html)
@@ -152,6 +156,12 @@ Fonts used in sample application:
 * [Levi Brush](http://loremipsum.ro)
 * [Orange Juice](http://brittneymurphydesign.com)
 
+Awesome tools for code quality improvement:
+
+* [Android Lint](http://developer.android.com/tools/help/lint.html)
+* [Checkstyle](http://checkstyle.sourceforge.net)
+* [FindBugs](http://findbugs.sourceforge.net)
+* [PMD](http://pmd.sourceforge.net)
 
 License
 -------
