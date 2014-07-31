@@ -163,6 +163,13 @@ Awesome tools for code quality improvement:
 * [FindBugs](http://findbugs.sourceforge.net)
 * [PMD](http://pmd.sourceforge.net)
 
+
+Contact
+-------
+
+[My HomePage](http://igormorais.com) :)
+
+
 License
 -------
 
