@@ -37,9 +37,9 @@ The widgets have the following custom attributes:
 
 I think the attributes names are self explanatory, but let me say:
 
-* TypefaceAssetPath - Set font from the specified font data
-* TypefaceFilePath - Set font from the specified font file
-* TypefaceCache - Load font from cache, default value is true
+* TypefaceAssetPath - Typeface path from the specified asset folder
+* TypefaceFilePath - Typeface path from the specified file
+* TypefaceCache - Load typeface from cache, default value is true
 
 ###### 1. Set in a single widget
 
@@ -99,6 +99,22 @@ You can use this style normally like `textAppearance` atribute.
 
 ##### In Java
 
+This isn't the best way, but sometimes you will need to set by code.
+
+###### 1. Extends abstract widgets
+
+All widgets have a abstract class(`AbstractTextView`), you can extends and implement a abstract method `getTypefaceAssetPath()` in your subclass.
+
+```java
+/**
+ * Get {@code Typeface} path from the specified asset folder.
+ *
+ * @return The {@code Typeface} path from the specified asset folder.
+ */
+protected abstract String getTypefaceAssetPath() {
+    return "fonts/LeviBrush.ttf";
+}
+```
 
 Thanks
 ------
