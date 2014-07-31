@@ -122,7 +122,7 @@ protected String getTypefaceAssetPath() {
 
 ###### 2. Use the custom widget classes
 
-Like a normal way, but you have a few new methods.
+You can use it as usual, but you have a few new methods.
 
 ```java
 TextView textView = (TextView) findViewById(R.id.text_view);
