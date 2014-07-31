@@ -115,7 +115,7 @@ All widgets have a abstract class(ex: `AbstractTextView`), you can extends and i
  *
  * @return The {@code Typeface} path from the specified asset folder.
  */
-protected abstract String getTypefaceAssetPath() {
+protected String getTypefaceAssetPath() {
     return "fonts/LeviBrush.ttf";
 }
 ```
