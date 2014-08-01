@@ -105,9 +105,9 @@ You can use this style normally like `textAppearance` atribute.
 
 This is not the best way, but sometimes you will need to set by code.
 
-###### 1. Extends abstract widgets
+###### 1. Extend abstract widgets
 
-All widgets have an abstract class(ex: `AbstractTextView`), you can extends and implement an abstract method `getTypefaceAssetPath()` in your subclass.
+All widgets have an abstract class(ex: `AbstractTextView`). You can extend and implement an abstract method `getTypefaceAssetPath()` in your subclass.
 
 ```java
 /**
