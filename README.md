@@ -1,7 +1,7 @@
 ![1] FontDroid
 ==============
 
-FontDroid is a small library that gives the ability to use custom fonts in your Android application, you can use any font with extension `.TTF` or `.OTF`.
+FontDroid is a small library that gives the ability to use custom fonts in an Android application, you can use any font with extension `.TTF` or `.OTF`.
 
 Supported widgets:
 
