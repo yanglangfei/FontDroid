@@ -56,7 +56,7 @@ I think the attributes names are self explanatory, but let me say:
         app:typefaceAssetPath="fonts/LeviBrush.ttf" />
 ```
 
-You also need to put this tag in your root element, that is necessary for Android when working with custom views.
+You also need to put this tag in your root element. That is necessary when working with custom views for Android.
 
 ```xml
 xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -84,8 +84,8 @@ Now let me show you the full sample.
 
 ###### 2. Set to the entire application
 
-Here you still need to use the custom widgets, but you can set the custom font in a style,
-the style must have the name `TextAppearance.Hollow`.
+Here you still need to use the custom widgets, but you can set the custom font in a style.
+The style must have the name `TextAppearance.Hollow`.
 
 ```xml
 <style name="TextAppearance.Hollow" parent="@android:style/TextAppearance.Holo">
@@ -103,7 +103,7 @@ You can use this style normally like `textAppearance` atribute.
 
 ##### In Java
 
-This isn't the best way, but sometimes you will need to set by code.
+This is not the best way, but sometimes you will need to set by code.
 
 ###### 1. Extends abstract widgets
 
