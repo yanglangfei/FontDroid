@@ -3,7 +3,7 @@
 
 FontDroid is a small library that gives the ability to use custom fonts in an Android application. You can use any font with extension `.TTF` or `.OTF`.
 
-Supported widgets:
+###### Supported Widgets:
 
 * [AutoCompleteTextView](http://developer.android.com/reference/android/widget/AutoCompleteTextView.html)
 * [Button](http://developer.android.com/reference/android/widget/Button.html)
@@ -23,11 +23,11 @@ Supported widgets:
 Example
 -------
 
-The custom font can be set to a widget in various ways, all examples below are using a plain `TextView`, but all widgets have the same usage.
+The custom font can be set to a widget in various ways, all examples below are using a plain `TextView`. But all widgets have the same usage.
 
 ##### In XML
 
-All supported widgets can be found in graphical layout tab, you can drag and drop as usually.
+All supported widgets can be found in graphical layout tab. You can drag and drop as usually.
 
 ![2]
 
