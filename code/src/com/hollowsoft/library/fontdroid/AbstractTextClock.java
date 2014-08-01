@@ -160,8 +160,9 @@ public abstract class AbstractTextClock extends android.widget.TextClock {
     }
 
     /**
+     * Get {@code Typeface} path from the specified asset folder.
      *
-     * @return
+     * @return The {@code Typeface} path from the specified asset folder.
      */
     protected abstract String getTypefaceAssetPath();
 }

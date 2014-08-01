@@ -140,8 +140,9 @@ public abstract class AbstractRadioButton extends android.widget.RadioButton {
     }
 
     /**
+     * Get {@code Typeface} path from the specified asset folder.
      *
-     * @return
+     * @return The {@code Typeface} path from the specified asset folder.
      */
     protected abstract String getTypefaceAssetPath();
 }

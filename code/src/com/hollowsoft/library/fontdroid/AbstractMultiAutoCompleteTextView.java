@@ -146,8 +146,9 @@ public abstract class AbstractMultiAutoCompleteTextView extends android.widget.M
     }
 
     /**
+     * Get {@code Typeface} path from the specified asset folder.
      *
-     * @return
+     * @return The {@code Typeface} path from the specified asset folder.
      */
     protected abstract String getTypefaceAssetPath();
 }

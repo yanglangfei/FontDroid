@@ -142,8 +142,9 @@ public abstract class AbstractSwitch extends android.widget.Switch {
     }
 
     /**
+     * Get {@code Typeface} path from the specified asset folder.
      *
-     * @return
+     * @return The {@code Typeface} path from the specified asset folder.
      */
     protected abstract String getTypefaceAssetPath();
 }
