@@ -84,8 +84,14 @@ Now let me show you the full sample.
 
 ###### 2. Set to the entire application
 
-Here you still need to use the custom widgets, but you can set the custom font in a style.
-The style must have the name `TextAppearance.Hollow`.
+You still need to use the custom widgets.
+
+```xml
+<com.hollowsoft.library.fontdroid.TextView
+...
+```
+
+But you can set the custom font in a style. The style must have the name `TextAppearance.Hollow`.
 
 ```xml
 <style name="TextAppearance.Hollow" parent="@android:style/TextAppearance.Holo">
