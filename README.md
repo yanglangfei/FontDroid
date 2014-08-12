@@ -112,7 +112,7 @@ You can use this style normally like `textAppearance` atribute.
 
 ##### In Java
 
-This is not the best way, but sometimes you will need to set by code.
+This is not the best way, but sometimes you will need to set this in code.
 
 ###### 1. Extend abstract widgets
 
