@@ -87,8 +87,7 @@ Now let me show you the full sample.
 You still need to use the custom widgets.
 
 ```xml
-<com.hollowsoft.library.fontdroid.TextView
-...
+<com.hollowsoft.library.fontdroid.TextView...
 ```
 
 But you can set the custom font in a style. The style must have the name `TextAppearance.Hollow`.
