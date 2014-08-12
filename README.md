@@ -29,6 +29,10 @@ The custom font can be set to a widget in various ways, all examples below are u
 
 All supported widgets can be found in graphical layout tab. You can drag and drop as usually.
 
+```xml
+<com.hollowsoft.library.fontdroid.XXX
+```
+
 ![2]
 
 These widgets have the following custom attributes:
