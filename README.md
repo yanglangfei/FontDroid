@@ -116,7 +116,7 @@ This is not the best way, but sometimes you will need to set this in code.
 
 ###### 1. Extend abstract widgets
 
-All widgets have an abstract class(ex: `AbstractTextView`). You can extend and implement an abstract method `getTypefaceAssetPath()` in your subclass.
+All widgets has an abstract version (ex: `AbstractTextView`). You can extend and implement an abstract method `getTypefaceAssetPath()` in your subclass. Creating your own custom widget.
 
 ```java
 /**
