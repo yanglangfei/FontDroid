@@ -33,6 +33,7 @@ All supported widgets can be found in graphical layout tab. You can drag and dro
 
 ```xml
 <com.hollowsoft.library.fontdroid.XXX
+...
 ```
 
 These widgets have the following custom attributes:
