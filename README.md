@@ -32,8 +32,7 @@ All supported widgets can be found in graphical layout tab. You can drag and dro
 ![2]
 
 ```xml
-<com.hollowsoft.library.fontdroid.XXX
-...
+<com.hollowsoft.library.fontdroid.XXX ...
 ```
 
 These widgets have the following custom attributes:
