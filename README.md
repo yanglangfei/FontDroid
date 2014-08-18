@@ -152,7 +152,7 @@ Pay attention on import
 import com.hollowsoft.library.fontdroid.TextView;
 ```
 
-You can also look at sample application for more detailed information.
+For more detailed information, look at sample application.
 
 
 Thanks
