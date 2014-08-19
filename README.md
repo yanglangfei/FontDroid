@@ -46,9 +46,9 @@ These widgets have the following custom attributes:
 
 I think the attributes names are self explanatory, but let me say:
 
-* `typefaceAssetPath` - Typeface path from the specified asset folder
-* `typefaceFilePath` - Typeface path from the specified file
-* `typefaceCache` - Load typeface from cache, default value is true
+* `typefaceAssetPath` - Typeface path from the specified asset folder.
+* `typefaceFilePath` - Typeface path from the specified file.
+* `typefaceCache` - Load typeface from cache, default value is true.
 
 ###### 1. Set in a single widget
 
