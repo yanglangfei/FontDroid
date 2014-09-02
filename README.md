@@ -20,6 +20,18 @@ FontDroid is a small library that gives the ability to use custom fonts in an An
 * [ToggleButton](http://developer.android.com/reference/android/widget/ToggleButton.html)
 
 
+Setup
+-----
+
+You can clone this repository, at url:
+
+`git clone https://github.com/MoraisIgor/FontDroid.git`
+
+And add it to your project reference.
+
+For more detailed information, look here [Referencing a library project](http://developer.android.com/tools/projects/projects-eclipse.html#ReferencingLibraryProject).
+
+
 Example
 -------
 
