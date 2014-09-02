@@ -146,7 +146,7 @@ TextView textView = new TextView(this);
 textView.setTypeface("fonts/LeviBrush.ttf", PathType.ASSET);
 ```
 
-Pay attention on import
+Pay attention on import.
 
 ```java
 import com.hollowsoft.library.fontdroid.TextView;
