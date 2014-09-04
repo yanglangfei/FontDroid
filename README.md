@@ -23,7 +23,7 @@ FontDroid is a small library that gives the ability to use custom fonts in an An
 Setup
 -----
 
-You can clone this repository, at url:
+You can clone this repository like this.
 
 `git clone https://github.com/MoraisIgor/FontDroid.git`
 
@@ -35,9 +35,9 @@ For more detailed information, look here [Referencing a library project](http://
 Example
 -------
 
-The custom font can be set to a widget in various ways, all examples below are using a plain `TextView`. But all widgets have the same usage.
+The custom font can be set to a widget in some different ways, all examples below are using a plain `TextView`. But all widgets have the same usage.
 
-##### In XML
+##### The Layout Way
 
 All supported widgets can be found in graphical layout tab. You can drag and drop as usually.
 
@@ -62,7 +62,9 @@ I think the attributes names are self explanatory, but let me say:
 * `typefaceFilePath` - Typeface path from the specified file.
 * `typefaceCache` - Load typeface from cache, default value is true.
 
-###### 1. Set in a single widget
+You can set a custom font just for a single widget or for the entire application.
+
+###### Set In Single Widget
 
 ```xml
 <com.hollowsoft.library.fontdroid.TextView
@@ -73,13 +75,13 @@ I think the attributes names are self explanatory, but let me say:
         app:typefaceAssetPath="fonts/LeviBrush.ttf" />
 ```
 
-You also need to put this tag in your root element. That is necessary when working with custom views for Android.
+You also need to put this tag in your root view element. That is necessary when working with custom views in Android.
 
 ```xml
 xmlns:app="http://schemas.android.com/apk/res-auto"
 ```
 
-Now let me show you the full sample.
+Now let me show the complete example.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -123,7 +125,7 @@ You can use this style normally like `textAppearance` atribute.
 </style>
 ```
 
-##### In Java
+##### In The Code
 
 This is not the best way, but sometimes you will need to set this in code.
 
@@ -189,7 +191,8 @@ Awesome tools for code quality improvement:
 Contact
 -------
 
-[My HomePage](http://igormorais.com) :)
+* [GitHub Page](http://moraisigor.github.io)
+* [Home Page](http://igormorais.com)
 
 
 License
