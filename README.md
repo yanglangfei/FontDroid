@@ -101,15 +101,18 @@ Now let me show the complete example.
 </RelativeLayout>
 ```
 
-###### 2. Set to the entire application
+###### Set To The Entire Application
 
-You still need to use the custom widgets.
+Like the previous example, you will specify the custom widgets in your layout.
 
 ```xml
-<com.hollowsoft.library.fontdroid.TextView...
+<com.hollowsoft.library.fontdroid.TextView
+...
 ```
 
-But you can set the custom font in a style. The style must have the name `TextAppearance.Hollow`.
+But you can set the custom font in a style, rather than specify just for a single widget.
+
+The style must have the name `TextAppearance.Hollow`, the attribute `parent` is optional.
 
 ```xml
 <style name="TextAppearance.Hollow" parent="@android:style/TextAppearance.Holo">
@@ -117,7 +120,7 @@ But you can set the custom font in a style. The style must have the name `TextAp
 </style>
 ```
 
-You can use this style normally like `textAppearance` atribute.
+You can use this style normally like `textAppearance` attribute.
 
 ```xml
 <style name="Theme.Example" parent="@android:style/Theme.Holo.Light.DarkActionBar">
@@ -125,9 +128,9 @@ You can use this style normally like `textAppearance` atribute.
 </style>
 ```
 
-##### In The Code
+##### The Code Way
 
-This is not the best way, but sometimes you will need to set this in code.
+This is not the best way, but sometimes you will need to set this by code.
 
 ###### 1. Extend abstract widgets
 
