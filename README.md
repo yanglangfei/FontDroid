@@ -132,6 +132,8 @@ You can use this style normally like `textAppearance` attribute.
 
 This is not the best way, but sometimes you will need to set this by code.
 
+You can extend the abstract classes or use the custom widget classes.
+
 ###### Extend Abstract Class
 
 All widgets has an `abstract` class version (ex: `AbstractTextView`).
