@@ -81,7 +81,7 @@ You also need to put this tag in your root view element. That is necessary when 
 xmlns:app="http://schemas.android.com/apk/res-auto"
 ```
 
-Now let me show the complete example.
+Now, let me show the complete example.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -156,7 +156,7 @@ protected String getTypefaceAssetPath() {
 }
 ```
 
-###### 2. Use the custom widget classes
+###### Use The Custom Widget Class
 
 You can use it as usual, but you have a few new methods.
 
