@@ -1,6 +1,8 @@
 ![1] FontDroid
 ==============
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-FontDroid-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/916)
+
 FontDroid is a small library that gives the ability to use custom fonts in an Android application. You can use any font with extension `.TTF` or `.OTF`.
 
 ###### Supported Widgets:
