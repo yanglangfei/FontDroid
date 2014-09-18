@@ -233,3 +233,6 @@ License
 
 [1]: https://raw.githubusercontent.com/MoraisIgor/FontDroid/master/raw/android.png
 [2]: https://raw.githubusercontent.com/MoraisIgor/FontDroid/master/raw/widget.png
+[3]: https://raw.githubusercontent.com/MoraisIgor/FontDroid/master/raw/1.png
+[4]: https://raw.githubusercontent.com/MoraisIgor/FontDroid/master/raw/2.png
+[5]: https://raw.githubusercontent.com/MoraisIgor/FontDroid/master/raw/3.png
