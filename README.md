@@ -21,6 +21,8 @@ FontDroid is a small library that gives the ability to use custom fonts in an An
 * [TextView](http://developer.android.com/reference/android/widget/TextView.html)
 * [ToggleButton](http://developer.android.com/reference/android/widget/ToggleButton.html)
 
+![3] &nbsp; ![4] &nbsp; ![5]
+
 
 Setup
 -----
