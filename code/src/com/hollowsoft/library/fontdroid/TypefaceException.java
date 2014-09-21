@@ -29,7 +29,7 @@ public class TypefaceException extends RuntimeException {
     private static final long serialVersionUID = -8566803889164965809L;
 
     /**
-     * Default public constructor.
+     *
      */
     public TypefaceException() {
         super();
@@ -45,18 +45,18 @@ public class TypefaceException extends RuntimeException {
 
     /**
      *
-     * @param e
+     * @param exception
      */
-    public TypefaceException(final RuntimeException e) {
-        super(e);
+    public TypefaceException(final RuntimeException exception) {
+        super(exception);
     }
 
     /**
      *
      * @param detailMessage
-     * @param e
+     * @param exception
      */
-    public TypefaceException(final String detailMessage, final RuntimeException e) {
-        super(detailMessage, e);
+    public TypefaceException(final String detailMessage, final RuntimeException exception) {
+        super(detailMessage, exception);
     }
 }
