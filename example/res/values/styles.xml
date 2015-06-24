@@ -1,15 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <style name="Theme.FontDroid" parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:textAppearance">@style/TextAppearance.Hollow</item>
-    </style>
-
-    <style name="TextAppearance.Hollow" parent="@android:style/TextAppearance.Holo">
-        <item name="typefaceAssetPath">fonts/LeviBrush.ttf</item>
-        <!-- <item name="typefaceAssetPath">fonts/Bombing.ttf</item> -->
-        <!-- <item name="typefaceAssetPath">fonts/DarkNetWarrior.ttf</item> -->
-        <!-- <item name="typefaceAssetPath">fonts/JennaSue.ttf</item> -->
-        <!-- <item name="typefaceAssetPath">fonts/OrangeJuice2.0.ttf</item> -->
-    </style>
-</resources>
