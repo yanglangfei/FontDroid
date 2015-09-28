@@ -22,6 +22,9 @@ import android.graphics.Typeface;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Igor Morais
+ */
 public final class FontCache implements IFontCache {
 
     private final Map<String, Typeface> fontMap = new HashMap<>();

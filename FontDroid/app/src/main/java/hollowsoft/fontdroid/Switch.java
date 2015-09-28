@@ -23,6 +23,9 @@ import android.graphics.Typeface;
 import android.os.Build;
 import android.util.AttributeSet;
 
+/**
+ * @author Igor Morais
+ */
 @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 public class Switch extends android.widget.Switch implements IFont {
 

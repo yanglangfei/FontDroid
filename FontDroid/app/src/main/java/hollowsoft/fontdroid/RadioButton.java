@@ -23,6 +23,9 @@ import android.graphics.Typeface;
 import android.os.Build;
 import android.util.AttributeSet;
 
+/**
+ * @author Igor Morais
+ */
 public class RadioButton extends android.widget.RadioButton implements IFont {
 
     public RadioButton(final Context context) {

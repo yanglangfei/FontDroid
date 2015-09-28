@@ -23,6 +23,9 @@ import android.graphics.Typeface;
 import android.os.Build;
 import android.util.AttributeSet;
 
+/**
+ * @author Igor Morais
+ */
 public class CheckBox extends android.widget.CheckBox implements IFont {
 
     public CheckBox(final Context context) {

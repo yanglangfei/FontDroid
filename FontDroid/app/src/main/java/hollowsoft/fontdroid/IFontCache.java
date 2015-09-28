@@ -19,6 +19,9 @@ package hollowsoft.fontdroid;
 import android.content.res.AssetManager;
 import android.graphics.Typeface;
 
+/**
+ * @author Igor Morais
+ */
 public interface IFontCache {
 
     Typeface get(String path);

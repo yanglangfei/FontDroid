@@ -16,6 +16,9 @@
 
 package hollowsoft.fontdroid;
 
+/**
+ * @author Igor Morais
+ */
 public interface IFont {
 
     void setFont(String path);

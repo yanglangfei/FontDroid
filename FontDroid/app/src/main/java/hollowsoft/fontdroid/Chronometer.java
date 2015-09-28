@@ -23,6 +23,9 @@ import android.graphics.Typeface;
 import android.os.Build;
 import android.util.AttributeSet;
 
+/**
+ * @author Igor Morais
+ */
 public class Chronometer extends android.widget.Chronometer implements IFont {
 
     public Chronometer(final Context context) {

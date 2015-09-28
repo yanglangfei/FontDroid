@@ -23,6 +23,9 @@ import android.graphics.Typeface;
 import android.os.Build;
 import android.util.AttributeSet;
 
+/**
+ * @author Igor Morais
+ */
 public class ToggleButton extends android.widget.ToggleButton implements IFont {
 
     public ToggleButton(final Context context) {

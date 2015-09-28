@@ -23,6 +23,9 @@ import android.graphics.Typeface;
 import android.os.Build;
 import android.util.AttributeSet;
 
+/**
+ * @author Igor Morais
+ */
 public class TextView extends android.widget.TextView implements IFont {
 
     public TextView(final Context context) {

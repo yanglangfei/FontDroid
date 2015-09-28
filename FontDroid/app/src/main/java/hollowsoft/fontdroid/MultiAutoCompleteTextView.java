@@ -23,6 +23,9 @@ import android.graphics.Typeface;
 import android.os.Build;
 import android.util.AttributeSet;
 
+/**
+ * @author Igor Morais
+ */
 public class MultiAutoCompleteTextView extends android.widget.MultiAutoCompleteTextView implements IFont {
 
     public MultiAutoCompleteTextView(final Context context) {

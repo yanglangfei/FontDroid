@@ -24,7 +24,7 @@ import android.os.Build;
 import android.util.AttributeSet;
 
 /**
- * Created by IgorMorais on 9/28/15.
+ * @author Igor Morais
  */
 public class EditText extends android.widget.EditText implements IFont {
 

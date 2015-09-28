@@ -21,6 +21,9 @@ import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 
+/**
+ * @author Igor Morais
+ */
 public class DigitalClock extends android.widget.DigitalClock implements IFont {
 
     public DigitalClock(final Context context) {

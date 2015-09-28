@@ -23,6 +23,9 @@ import android.graphics.Typeface;
 import android.os.Build;
 import android.util.AttributeSet;
 
+/**
+ * @author Igor Morais
+ */
 public class AutoCompleteTextView extends android.widget.AutoCompleteTextView implements IFont {
 
     public AutoCompleteTextView(final Context context) {
