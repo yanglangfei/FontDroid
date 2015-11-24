@@ -63,7 +63,9 @@ public final class FontCache implements IFontCache {
 
         final Typeface typeface = Typeface.createFromAsset(assetManager, path);
 
-        return fontMap.put(path, typeface);
+        fontMap.put(path, typeface);
+
+        return typeface;
     }
 
     @Override
